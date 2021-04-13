@@ -36,7 +36,8 @@ EAR_AVG = 0
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
-client = pymongo.MongoClient("mongodb+srv://vara:vara@mycluster.zucif.gcp.mongodb.net/contactlessAtm?retryWrites=true&w=majority")
+url = '''mongodb url'''
+client = pymongo.MongoClient(url)
 db = client.contactlessAtm
 
 class application(tk.Tk):
