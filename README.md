@@ -1,0 +1,1 @@
+This is a contact less atm in which authenticaitn will be done using face recognisation and and pin, then there will option for atm transactions which will be chosen by the user with hand fingers.
